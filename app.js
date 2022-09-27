@@ -28,11 +28,6 @@ const renderError = () => {
   
 
 };
-
-
-
-
-
 const renderCountries = (data) => {
   // console.log(data);
   data.forEach((item) => {
