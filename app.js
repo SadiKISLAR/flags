@@ -25,15 +25,14 @@ const renderError = () => {
         <img src="./img/404.png" alt="" />
     `;
 
-  
-
 };
 const renderCountries = (data) => {
-  // console.log(data);
-  data.forEach((item) => {
+       
+    data.forEach((item) => {
     const {
       name: { common },
     } = item;
+    
     const selectMenu = document.querySelector("#list");
     selectMenu.innerHTML += `
     <option style="width: 300px">${common}</option>`;
